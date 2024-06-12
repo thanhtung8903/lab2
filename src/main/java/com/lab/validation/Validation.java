@@ -25,7 +25,7 @@ public class Validation {
 
     public static boolean inputId(String msg) {
         String input = getInput(msg);
-        if (!input.matches("^[A-Za-z0-9]{8}+$")) {
+        if (!input.matches("[A-Z]{2}\\d{6}")) {
             throw new IllegalArgumentException("Invalid, please input again!");
         } else {
             return true;

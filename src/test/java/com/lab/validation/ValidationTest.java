@@ -56,7 +56,7 @@ class ValidationTest {
 
 
     @ParameterizedTest
-    @ValueSource(strings = {"Abc12345", "12345678", "A1B2C3D4"})
+    @ValueSource(strings = {"HE173024", "HS183245", "SE170945"})
     @DisplayName("Test inputId with valid IDs")
     public void testInputId_ValidId(String input) {
         System.setIn(new ByteArrayInputStream((input + "\n").getBytes()));
@@ -65,7 +65,7 @@ class ValidationTest {
     }
 
     @ParameterizedTest
-    @ValueSource(strings = {"abc", "1234567", "A1B2C3D4E5", "abc@1234"})
+    @ValueSource(strings = {"abc", "1234567", "A1B2C3D4E5", "abc@1234", "   "})
     @DisplayName("Test inputId with invalid IDs")
     public void testInputId_InvalidId(String input) {
         System.setIn(new ByteArrayInputStream((input + "\n").getBytes()));
