@@ -7,7 +7,7 @@ import com.lab.validation.Validation;
 
 import java.util.ArrayList;
 
-public class ControllerStudent {
+public class StudentView {
 
     StudentController studentController = new StudentController();
 

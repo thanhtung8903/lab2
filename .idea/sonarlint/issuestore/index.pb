@@ -27,3 +27,7 @@ g
 7src/main/java/com/lab/controller/StudentController.java,5\4\54f4c1799f591bdb7ea9ad864f787669c876115b
 f
 6src/test/java/com/lab/model/StudentControllerTest.java,2\a\2adfebf28a16ccf83d3d357fccd4deb8afaba326
+k
+;src/test/java/com/lab/controller/StudentControllerTest.java,c\8\c8441f294b7402a46f2606d2692d9114acd88c37
+[
++src/main/java/com/lab/view/StudentView.java,5\5\5519a7fc093653ab103fe9952dfb64b0ddaa789e

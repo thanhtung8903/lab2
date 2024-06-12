@@ -1,6 +1,7 @@
-package com.lab.model;
+package com.lab.controller;
 
 import com.lab.controller.StudentController;
+import com.lab.model.Student;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;

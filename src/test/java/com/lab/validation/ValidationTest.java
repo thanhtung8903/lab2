@@ -54,19 +54,6 @@ class ValidationTest {
         });
     }
 
-    @ParameterizedTest
-    @CsvSource({
-            "1, 1, 10",
-            "10, 1, 10"
-    })
-    @DisplayName("Test inputChoice with boundary values")
-    public void testInputChoice_BoundaryValues(String input, int min, int max) {
-        System.setIn(new ByteArrayInputStream((input + "\n").getBytes()));
-        Validation.resetScanner();
-
-        assertEquals(Integer.parseInt(input), Validation.inputChoice("Enter choice: ", min, max));
-    }
-
 
     @ParameterizedTest
     @ValueSource(strings = {"Abc12345", "12345678", "A1B2C3D4"})

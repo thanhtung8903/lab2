@@ -6,8 +6,8 @@ public class Menu {
 
 
     public void displayMenu() {
-        ControllerStudent controllerStudent = new ControllerStudent();
-        controllerStudent.generateExampleStudent();
+        StudentView studentView = new StudentView();
+        studentView.generateExampleStudent();
         int choice;
         while (true) {
             System.out.println("WELCOME TO STUDENT MANAGEMENT");
@@ -21,16 +21,16 @@ public class Menu {
             choice = Validation.inputChoice("Enter your choice: ", 1, 5);
             switch (choice) {
                 case 1:
-                    controllerStudent.createStudent();
+                    studentView.createStudent();
                     break;
                 case 2:
-                    controllerStudent.findAndSort();
+                    studentView.findAndSort();
                     break;
                 case 3:
-                    controllerStudent.updateOrDeleteStudent();
+                    studentView.updateOrDeleteStudent();
                     break;
                 case 4:
-                    controllerStudent.report();
+                    studentView.report();
                     break;
                 case 5:
                     System.out.println("Exit program STUDENT MANAGEMENT");
