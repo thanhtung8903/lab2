@@ -19,3 +19,11 @@ d
 4src/test/java/com/lab/validation/ValidationTest.java,5\3\53dd916896caafe766f93dc72860c01ed2d4a268
 ^
 .src/test/java/com/lab/model/BOStudentTest.java,b\a\ba20f54816dec9b80c63d8adfd397229e7efcc21
+_
+/src/main/java/com/lab/controller/BOStudent.java,3\7\377f0bc6a59f953cee8af5387585ad3c6273ab16
+a
+1src/main/java/com/lab/view/ControllerStudent.java,e\7\e7cb6b7405310ee784aded83fcf15aeec9a8296e
+g
+7src/main/java/com/lab/controller/StudentController.java,5\4\54f4c1799f591bdb7ea9ad864f787669c876115b
+f
+6src/test/java/com/lab/model/StudentControllerTest.java,2\a\2adfebf28a16ccf83d3d357fccd4deb8afaba326

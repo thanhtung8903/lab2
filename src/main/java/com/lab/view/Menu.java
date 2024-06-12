@@ -1,6 +1,5 @@
 package com.lab.view;
 
-import com.lab.controller.ControllerStudent;
 import com.lab.validation.Validation;
 
 public class Menu {

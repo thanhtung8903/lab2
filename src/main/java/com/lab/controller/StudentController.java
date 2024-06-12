@@ -1,10 +1,13 @@
-package com.lab.model;
+package com.lab.controller;
+
+import com.lab.model.Report;
+import com.lab.model.Student;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class BOStudent {
+public class StudentController {
 
     private ArrayList<Student> listStudents = new ArrayList<>();
 
